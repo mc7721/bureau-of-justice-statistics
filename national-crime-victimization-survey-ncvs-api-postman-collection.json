@@ -1,0 +1,234 @@
+{
+    "id": "366c3ed37bbbd4e09bda7a3106eb79db",
+    "name": "National Crime Victimization Survey (NCVS) API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "0b546c7ad43a30bd208a894ce0c11868",
+            "name": "Get",
+            "url": "httpwww.bjs.gov\/bjs\/ncvs\/v2\/",
+            "description": "Returns a list of available datasets and data types they are available in.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "366c3ed37bbbd4e09bda7a3106eb79db",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5bff94e3724dd9f4d09f8cd0c7d291f",
+            "name": "Get Household Fields",
+            "url": "httpwww.bjs.gov\/bjs\/ncvs\/v2\/household\/fields\/",
+            "description": "Returns a description of the fields\/columns used returned in the household data sets.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "366c3ed37bbbd4e09bda7a3106eb79db",
+            "rawModeData": ""
+        },
+        {
+            "id": "4dec2804b43c9f6347f8688feacd9f33",
+            "name": "Get Household Population Year",
+            "url": "httpwww.bjs.gov\/bjs\/ncvs\/v2\/household\/population\/{year}",
+            "description": "Returns the personal population of reported incidents.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Format the data will be provided in.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year",
+                    "description": "Year will limit the data to only values that occurred the given year.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "366c3ed37bbbd4e09bda7a3106eb79db",
+            "rawModeData": ""
+        },
+        {
+            "id": "efd27ef5268c50a7ccc68d82cc3f7b87",
+            "name": "Get Household Year",
+            "url": "httpwww.bjs.gov\/bjs\/ncvs\/v2\/household\/{year}",
+            "description": "Returns the household counts of reported incidents",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Format the data will be provided in.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year",
+                    "description": "Year will limit the data to only values that occurred the given year.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "366c3ed37bbbd4e09bda7a3106eb79db",
+            "rawModeData": ""
+        },
+        {
+            "id": "58cafd50894afb9c6ae68c9f825649ad",
+            "name": "Get Personal Fields",
+            "url": "httpwww.bjs.gov\/bjs\/ncvs\/v2\/personal\/fields\/",
+            "description": "Returns a description of the fields\/columns used returned in the personal data sets.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "366c3ed37bbbd4e09bda7a3106eb79db",
+            "rawModeData": ""
+        },
+        {
+            "id": "b8e6c00244db62447f474a2eda833edf",
+            "name": "Get Personal Population Year",
+            "url": "httpwww.bjs.gov\/bjs\/ncvs\/v2\/personal\/population\/{year}",
+            "description": "Returns the personal population of reported incidents.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Format the data will be provided in.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year",
+                    "description": "Year will limit the data to only values that occurred the given year.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "366c3ed37bbbd4e09bda7a3106eb79db",
+            "rawModeData": ""
+        },
+        {
+            "id": "1cc5e23144fb097ce7a483dc38ff3a20",
+            "name": "Get Personal Year",
+            "url": "httpwww.bjs.gov\/bjs\/ncvs\/v2\/personal\/{year}",
+            "description": "Returns the personal counts of reported incidents.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Format the data will be provided in.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year",
+                    "description": "Year will limit the data to only values that occurred the given year.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "366c3ed37bbbd4e09bda7a3106eb79db",
+            "rawModeData": ""
+        }
+    ]
+}
