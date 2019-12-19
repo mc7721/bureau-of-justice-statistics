@@ -1,0 +1,55 @@
+{
+    "name": "Bureau of Justice Statistics",
+    "description": "<p>The United States Bureau of Justice Statistics (BJS) is a federal government agency belonging to the U.S. Department of Justice and a principal agency of the U.S. Federal Statistical System. Established on December 27, 1979, the bureau collects, analyzes and publishes data relating to crime in the United States. The agency publishes data regarding statistics gathered from the roughly fifty-thousand agencies that comprise the U.S. justice system on its Web site.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/US-DeptOfJustice-Seal.svg.png",
+    "tags": [
+        "api provider",
+        "data provider",
+        "general data",
+        "have api",
+        "surveillance"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/bureau-of-justice-statistics\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "National Crime Victimization Survey (NCVS) API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/US-DeptOfJustice-Seal.svg.png",
+            "humanURL": "http:\/\/bjs.gov",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/national-crime-victimization-survey-ncvs-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/national-crime-victimization-survey-ncvs-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Developers",
+            "url": "http:\/\/www.bjs.gov\/developer\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/bjs.gov"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.bjs.gov"
+        },
+        {
+            "type": "Wikipedia",
+            "url": "http:\/\/en.wikipedia.org\/wiki\/Bureau_of_Justice_Statistics"
+        }
+    ]
+}
